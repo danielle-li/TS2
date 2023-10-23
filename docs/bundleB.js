@@ -770,7 +770,7 @@ function createRatePies(id, model, palette, includeAnnotations) {
     svg = svg.append('g').attr('transform', 'translate(10,0)');
     
     var tprColors = [palette[0], palette[2]];
-    var fprColors = [palette[1], palette[3]];
+    var fprColors = [palette[3], palette[1]];
     var fnrColors = [palette[0], palette[2]];
     var allColors = [palette[3], palette[1]];
     
